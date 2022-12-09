@@ -4,7 +4,7 @@ import colorsys as cs
 tur.setup(800,800)
 tur.speed(0)
 tur.width(2)
-tur.bgcolor("black")
+tur.bgcolor("pink")
 for j in range(25):
     for i in range(15):
         tur.color(cs.hsv_to_rgb(i/15,j/25,1))
